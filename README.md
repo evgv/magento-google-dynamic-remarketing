@@ -18,7 +18,8 @@ The following version have passed all tests:
 ## Settings
 
 **Properties**  
-[Enable](#enable)                                                                                                                                                                                                                                    
+[Enable](#enable)
+
 **Additional properties**                                                                                                             
 [Round](#round)                                                                                                                  
 [Tax](#tax)                                                                                                                    
