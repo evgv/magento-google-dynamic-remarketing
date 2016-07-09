@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <NoName_Gdn>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Directory />
+                <Mage_Tax />
+            </depends>
+        </NoName_Gdn>
+    </modules>
+</config>

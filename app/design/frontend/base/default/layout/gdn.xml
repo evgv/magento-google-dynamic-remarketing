@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout>
+    
+    <default>
+       <reference name="before_body_end">
+           <block type="gdn/pixel" name="gdn_pixel" template="gdn/pixel.phtml" />
+       </reference>
+    </default>
+    
+</layout>

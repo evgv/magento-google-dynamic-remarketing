@@ -1,0 +1,29 @@
+<?php /* @see NoName_Gdn_Block_Pixel */ ?> 
+<?php /* @var $this NoName_Gdn_Block_Pixel */ ?>
+
+<?php if($this->getConversationId() && $this->getEnableGdn()) { ?>
+
+    <?php $params = $this->getParams(); ?>
+
+    <!--Google RM Tag begin-->
+        <script type="text/javascript">
+            var google_tag_params = <?php echo json_encode($params); ?>;
+        </script>
+
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = <?php echo $this->getConversationId() ?>;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+        </script>
+
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+
+        <noscript>
+        <div style="display:inline;">
+            <img height="1" width="1" style="border-style:none;" alt="" src="<?php printf('//googleads.g.doubleclick.net/pagead/viewthroughconversion/%s/?value=0&guid=ON&script=0', $this->getConversationId()) ?>"/>
+        </div>
+        </noscript>
+    <!--Google RM Tag end-->
+<?php } ?>

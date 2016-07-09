@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <NoName_Gdn>
+            <version>1.0.0</version>
+        </NoName_Gdn>
+    </modules>
+
+    <global>
+        <blocks>
+            <gdn>
+                <class>NoName_Gdn_Block</class>
+            </gdn>
+        </blocks>
+        <helpers>
+            <gdn>
+                <class>NoName_Gdn_Helper</class>
+            </gdn>
+        </helpers>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <gdn module="NoName_Gdn">
+                    <file>gdn.xml</file>
+                </gdn>
+            </updates>
+        </layout>
+    </frontend>
+
+    <adminhtml>
+        <translate>
+            <modules>
+                <NoName_FooterPFilter>
+                    <files>
+                        <default>NoName_Gdn.csv</default>
+                    </files>
+                </NoName_FooterPFilter>
+            </modules>
+        </translate>
+    </adminhtml>
+
+    <default>
+        <google>
+            <display_network>
+                <enable>0</enable>
+            </display_network>
+        </google>
+    </default>
+
+</config>

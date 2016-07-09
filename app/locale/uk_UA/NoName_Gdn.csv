@@ -1,0 +1,18 @@
+############# Backend #############
+
+"Conversation Id","Id конверсії"
+"GDN tackng pages","GDN сторінки для відстеження"
+"Price display settings","Налаштування відображення ціни"
+"Enable round price","Округлити ціну"
+"Round precision","Точність округлення"
+"By default precision is 0. Example price 5.78 rounded to 6","За замовччанням точність округлення дорівнює 0. Наприклад ціна 5.78 окрилиться до 6"
+"Display price with tax","Показувти ціну з налогом"
+"Tracking pages","Сторінки"
+"Page type:","Тип сторінки"
+"Full action name:","Повний шлях запиту"
+"Data extract type:","Тип видобутих даних"
+"Name of tracking pages, need for <strong>'dynx_pagetype'</strong> </br> Example: home, searchresults, offerdetail, conversionintent, conversion, other","Ім'я відстежуваної сторінки, потрібно для параметра <strong> 'dynx_pagetype' </ strong> </ br> Наприклад: home, searchresults, offerdetail, conversionintent, conversion, other"
+"Magento full action name. </br> Example: for <strong>'home'</strong> page by default is  <strong>'cms_index_index'</strong>","Повний шлях запиту Magento. </ Br> Наприклад: для сторінки <strong> 'home' </ strong> шлях за замовчуванням <strong> 'cms_index_index' </ strong>"
+"Magento page type, need for extract data. </br> Example:  </br><strong>cart/checkout (extract quote items) </br> success (extract last order) </br> product (extract current product) </br> other (without data)'</strong>","Тип сторінки Magento для вилучення даних. </ Br> Наприклад: </ br> <strong> cart / checkout (витягує квоту) </ br> success (витягує останній замовлення) </ br> product (витягує поточний продукт) </ br> other (дані не беруться) '</ strong>"
+"",""
+"",""

@@ -1,0 +1,17 @@
+############# Backend #############
+
+"Conversation Id","Conversation Id"
+"GDN tackng pages","GDN tackng pages"
+"Price display settings","Price display settings"
+"Enable round price","Enable round price"
+"By default precision is 0. Example price 5.78 rounded to 5","By default precision is 0. Example price 5.78 rounded to 5"
+"Display price with tax","Display price with tax"
+"Tracking pages","Tracking pages"
+"Page type:","Page type:"
+"Full action name:","Full action name:"
+"Data extract type:","Data extract type:"
+"Name of tracking pages, need for <strong>'dynx_pagetype'</strong> </br> Example: home, searchresults, offerdetail, conversionintent, conversion, other","Name of tracking pages, need for <strong>'dynx_pagetype'</strong> </br> Example: home, searchresults, offerdetail, conversionintent, conversion, other"
+"Magento full action name. </br> Example: for <strong>'home'</strong> page by default is  <strong>'cms_index_index'</strong>","Magento full action name. </br> Example: for <strong>'home'</strong> page by default is  <strong>'cms_index_index'</strong>"
+"Magento page type, need for extract data. </br> Example:  </br><strong>cart/checkout (extract quote items) </br> success (extract last order) </br> product (extract current product) </br> other (without data)'</strong>","Magento page type, need for extract data. </br> Example:  </br><strong>cart/checkout (extract quote items) </br> success (extract last order) </br> product (extract current product) </br> other (without data)'</strong>"
+"",""
+"",""
