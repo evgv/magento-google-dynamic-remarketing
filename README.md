@@ -45,11 +45,11 @@ _All setting in `System -> Configuration -> Sales -> Google API -> Google Displa
 
 #### Round
 Enable/Disable price round. Setup round precision, by default is 0.
-
 `Disable by default`
 
 #### Tax
 Enable/Disable display price with tax.
+
 `Disable by default`
 
 
